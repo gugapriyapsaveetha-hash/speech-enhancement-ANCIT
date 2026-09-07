@@ -11,13 +11,12 @@ The main techniques used in this project are Wiener noise reduction, pitch estim
 The program follows these main steps:
 1. The input WAV file is read.
 2. If required, the audio is resampled to 16 kHz.
-3. Gaussian white noise is added to the speech signal.
-4. The program estimates the pitch of the speech and identifies voiced portions.
-5. The noise characteristics are estimated from the signal.
-6. Wiener filtering is used to reduce the unwanted noise.
-7. Pitch information is used for further speech processing.
-8. The processed speech frames are combined using overlap-add.
-9. The final enhanced speech is saved as a WAV file.
+3. TThe program estimates the pitch of the speaker's voice.
+4. The noise characteristics are estimated from the signal.
+5. Wiener filtering is used to reduce the unwanted noise.
+6. Pitch information is used for further speech processing.
+7. The processed speech frames are combined using overlap-add.
+8. The final enhanced speech is saved as a WAV file.
 The output can then be listened to and compared with the original/noisy speech.
 
 ## Files in the Project
